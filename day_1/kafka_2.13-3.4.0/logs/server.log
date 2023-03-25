@@ -1,0 +1,439 @@
+[2023-03-25 23:45:00,206] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-25 23:45:00,209] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-25 23:45:00,211] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-25 23:45:00,211] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-25 23:45:00,211] INFO observerMasterPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-25 23:45:00,211] INFO metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-25 23:45:00,214] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2023-03-25 23:45:00,214] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2023-03-25 23:45:00,214] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2023-03-25 23:45:00,214] WARN Either no config or no quorum defined in config, running in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2023-03-25 23:45:00,216] INFO Log4j 1.2 jmx support not found; jmx disabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2023-03-25 23:45:00,217] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-25 23:45:00,217] WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-25 23:45:00,217] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-25 23:45:00,217] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-25 23:45:00,217] INFO observerMasterPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-25 23:45:00,217] INFO metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-25 23:45:00,217] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2023-03-25 23:45:00,232] INFO ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@341b80b2 (org.apache.zookeeper.server.ServerMetrics)
+[2023-03-25 23:45:00,237] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2023-03-25 23:45:00,252] INFO  (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,252] INFO   ______                  _                                           (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,253] INFO  |___  /                 | |                                          (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,253] INFO     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __    (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,253] INFO    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__| (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,253] INFO   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |     (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,253] INFO  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_| (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,253] INFO                                               | |                      (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,253] INFO                                               |_|                      (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,253] INFO  (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,256] INFO Server environment:zookeeper.version=3.6.3--6401e4ad2087061bc6b9f80dec2d69f2e3c8660a, built on 04/08/2021 16:35 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,257] INFO Server environment:host.name=fedora (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,257] INFO Server environment:java.version=17.0.6 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,257] INFO Server environment:java.vendor=Red Hat, Inc. (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,257] INFO Server environment:java.home=/usr/lib/jvm/java-17-openjdk-17.0.6.0.10-1.fc37.x86_64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,257] INFO Server environment:java.class.path=/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/activation-1.1.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/aopalliance-repackaged-2.6.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/argparse4j-0.7.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/audience-annotations-0.5.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/commons-cli-1.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/commons-lang3-3.8.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-api-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-basic-auth-extension-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-json-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-mirror-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-mirror-client-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-runtime-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-transforms-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/hk2-api-2.6.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/hk2-locator-2.6.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/hk2-utils-2.6.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-annotations-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-core-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-databind-2.13.4.2.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-dataformat-csv-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-datatype-jdk8-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-jaxrs-base-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-jaxrs-json-provider-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-module-jaxb-annotations-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-module-scala_2.13-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jakarta.activation-api-1.2.2.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jakarta.annotation-api-1.3.5.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jakarta.inject-2.6.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jakarta.validation-api-2.0.2.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jakarta.ws.rs-api-2.1.6.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jakarta.xml.bind-api-2.3.3.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/javassist-3.27.0-GA.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/javax.annotation-api-1.3.2.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/javax.servlet-api-3.1.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jaxb-api-2.3.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jersey-client-2.34.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jersey-common-2.34.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jersey-container-servlet-2.34.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jersey-container-servlet-core-2.34.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jersey-hk2-2.34.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jersey-server-2.34.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-client-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-continuation-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-http-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-io-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-security-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-server-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-servlet-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-servlets-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-util-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-util-ajax-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jline-3.21.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jopt-simple-5.0.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jose4j-0.7.9.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka_2.13-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-clients-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-group-coordinator-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-log4j-appender-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-metadata-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-raft-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-server-common-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-shell-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-storage-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-storage-api-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-streams-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-streams-examples-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-streams-scala_2.13-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-streams-test-utils-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-tools-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/lz4-java-1.8.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/maven-artifact-3.8.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/metrics-core-2.2.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/metrics-core-4.1.12.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-buffer-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-codec-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-common-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-handler-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-resolver-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-transport-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-transport-classes-epoll-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-transport-native-epoll-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-transport-native-unix-common-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/osgi-resource-locator-1.0.3.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/paranamer-2.8.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/plexus-utils-3.3.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/reflections-0.9.12.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/reload4j-1.2.19.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/rocksdbjni-7.1.2.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/scala-collection-compat_2.13-2.6.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/scala-java8-compat_2.13-1.0.2.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/scala-library-2.13.10.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/scala-logging_2.13-3.9.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/scala-reflect-2.13.10.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/slf4j-api-1.7.36.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/slf4j-reload4j-1.7.36.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/snappy-java-1.1.8.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/swagger-annotations-2.2.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/trogdor-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/zookeeper-3.6.3.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/zookeeper-jute-3.6.3.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/zstd-jni-1.5.2-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,258] INFO Server environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,258] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,259] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,259] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,259] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,259] INFO Server environment:os.version=6.2.7-200.fc37.x86_64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,259] INFO Server environment:user.name=atif (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,259] INFO Server environment:user.home=/home/atif (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,259] INFO Server environment:user.dir=/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,259] INFO Server environment:os.memory.free=496MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,259] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,259] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,259] INFO zookeeper.enableEagerACLCheck = false (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,259] INFO zookeeper.digest.enabled = true (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,260] INFO zookeeper.closeSessionTxn.enabled = true (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,260] INFO zookeeper.flushDelay=0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,260] INFO zookeeper.maxWriteQueuePollTime=0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,260] INFO zookeeper.maxBatchSize=1000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,260] INFO zookeeper.intBufferStartingSizeBytes = 1024 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,262] INFO Weighed connection throttling is disabled (org.apache.zookeeper.server.BlueThrottle)
+[2023-03-25 23:45:00,263] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,263] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,265] INFO Response cache size is initialized with value 400. (org.apache.zookeeper.server.ResponseCache)
+[2023-03-25 23:45:00,265] INFO Response cache size is initialized with value 400. (org.apache.zookeeper.server.ResponseCache)
+[2023-03-25 23:45:00,267] INFO zookeeper.pathStats.slotCapacity = 60 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2023-03-25 23:45:00,267] INFO zookeeper.pathStats.slotDuration = 15 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2023-03-25 23:45:00,271] INFO zookeeper.pathStats.maxDepth = 6 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2023-03-25 23:45:00,272] INFO zookeeper.pathStats.initialDelay = 5 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2023-03-25 23:45:00,272] INFO zookeeper.pathStats.delay = 5 (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2023-03-25 23:45:00,272] INFO zookeeper.pathStats.enabled = false (org.apache.zookeeper.server.util.RequestPathMetricsCollector)
+[2023-03-25 23:45:00,278] INFO The max bytes for all large requests are set to 104857600 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,279] INFO The large request threshold is set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,279] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,294] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2023-03-25 23:45:00,295] WARN maxCnxns is not configured, using default value 0. (org.apache.zookeeper.server.ServerCnxnFactory)
+[2023-03-25 23:45:00,297] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2023-03-25 23:45:00,302] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2023-03-25 23:45:00,321] INFO Using org.apache.zookeeper.server.watch.WatchManager as watch manager (org.apache.zookeeper.server.watch.WatchManagerFactory)
+[2023-03-25 23:45:00,321] INFO Using org.apache.zookeeper.server.watch.WatchManager as watch manager (org.apache.zookeeper.server.watch.WatchManagerFactory)
+[2023-03-25 23:45:00,322] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2023-03-25 23:45:00,322] INFO zookeeper.commitLogCount=500 (org.apache.zookeeper.server.ZKDatabase)
+[2023-03-25 23:45:00,331] INFO zookeeper.snapshot.compression.method = CHECKED (org.apache.zookeeper.server.persistence.SnapStream)
+[2023-03-25 23:45:00,331] INFO Snapshotting: 0x0 to /tmp/zookeeper/version-2/snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2023-03-25 23:45:00,335] INFO Snapshot loaded in 14 ms, highest zxid is 0x0, digest is 1371985504 (org.apache.zookeeper.server.ZKDatabase)
+[2023-03-25 23:45:00,335] INFO Snapshotting: 0x0 to /tmp/zookeeper/version-2/snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2023-03-25 23:45:00,336] INFO Snapshot taken in 0 ms (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-25 23:45:00,348] INFO PrepRequestProcessor (sid:0) started, reconfigEnabled=false (org.apache.zookeeper.server.PrepRequestProcessor)
+[2023-03-25 23:45:00,349] INFO zookeeper.request_throttler.shutdownTimeout = 10000 (org.apache.zookeeper.server.RequestThrottler)
+[2023-03-25 23:45:00,369] INFO Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0 (org.apache.zookeeper.server.ContainerManager)
+[2023-03-25 23:45:00,370] INFO ZooKeeper audit is disabled. (org.apache.zookeeper.audit.ZKAuditProvider)
+[2023-03-25 23:48:13,090] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2023-03-25 23:48:13,322] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2023-03-25 23:48:13,407] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2023-03-25 23:48:13,409] INFO starting (kafka.server.KafkaServer)
+[2023-03-25 23:48:13,409] INFO Connecting to zookeeper on 192.168.0.106:2181 (kafka.server.KafkaServer)
+[2023-03-25 23:48:13,425] INFO [ZooKeeperClient Kafka server] Initializing a new session to 192.168.0.106:2181. (kafka.zookeeper.ZooKeeperClient)
+[2023-03-25 23:48:13,430] INFO Client environment:zookeeper.version=3.6.3--6401e4ad2087061bc6b9f80dec2d69f2e3c8660a, built on 04/08/2021 16:35 GMT (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,431] INFO Client environment:host.name=fedora (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,431] INFO Client environment:java.version=17.0.6 (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,431] INFO Client environment:java.vendor=Red Hat, Inc. (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,431] INFO Client environment:java.home=/usr/lib/jvm/java-17-openjdk-17.0.6.0.10-1.fc37.x86_64 (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,431] INFO Client environment:java.class.path=/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/activation-1.1.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/aopalliance-repackaged-2.6.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/argparse4j-0.7.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/audience-annotations-0.5.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/commons-cli-1.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/commons-lang3-3.8.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-api-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-basic-auth-extension-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-json-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-mirror-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-mirror-client-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-runtime-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/connect-transforms-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/hk2-api-2.6.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/hk2-locator-2.6.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/hk2-utils-2.6.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-annotations-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-core-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-databind-2.13.4.2.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-dataformat-csv-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-datatype-jdk8-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-jaxrs-base-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-jaxrs-json-provider-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-module-jaxb-annotations-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jackson-module-scala_2.13-2.13.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jakarta.activation-api-1.2.2.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jakarta.annotation-api-1.3.5.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jakarta.inject-2.6.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jakarta.validation-api-2.0.2.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jakarta.ws.rs-api-2.1.6.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jakarta.xml.bind-api-2.3.3.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/javassist-3.27.0-GA.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/javax.annotation-api-1.3.2.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/javax.servlet-api-3.1.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jaxb-api-2.3.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jersey-client-2.34.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jersey-common-2.34.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jersey-container-servlet-2.34.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jersey-container-servlet-core-2.34.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jersey-hk2-2.34.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jersey-server-2.34.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-client-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-continuation-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-http-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-io-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-security-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-server-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-servlet-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-servlets-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-util-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jetty-util-ajax-9.4.48.v20220622.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jline-3.21.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jopt-simple-5.0.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/jose4j-0.7.9.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka_2.13-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-clients-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-group-coordinator-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-log4j-appender-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-metadata-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-raft-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-server-common-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-shell-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-storage-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-storage-api-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-streams-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-streams-examples-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-streams-scala_2.13-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-streams-test-utils-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/kafka-tools-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/lz4-java-1.8.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/maven-artifact-3.8.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/metrics-core-2.2.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/metrics-core-4.1.12.1.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-buffer-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-codec-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-common-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-handler-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-resolver-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-transport-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-transport-classes-epoll-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-transport-native-epoll-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/netty-transport-native-unix-common-4.1.78.Final.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/osgi-resource-locator-1.0.3.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/paranamer-2.8.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/plexus-utils-3.3.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/reflections-0.9.12.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/reload4j-1.2.19.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/rocksdbjni-7.1.2.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/scala-collection-compat_2.13-2.6.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/scala-java8-compat_2.13-1.0.2.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/scala-library-2.13.10.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/scala-logging_2.13-3.9.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/scala-reflect-2.13.10.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/slf4j-api-1.7.36.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/slf4j-reload4j-1.7.36.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/snappy-java-1.1.8.4.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/swagger-annotations-2.2.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/trogdor-3.4.0.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/zookeeper-3.6.3.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/zookeeper-jute-3.6.3.jar:/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0/bin/../libs/zstd-jni-1.5.2-1.jar (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,431] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,432] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,432] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,432] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,432] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,432] INFO Client environment:os.version=6.2.7-200.fc37.x86_64 (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,432] INFO Client environment:user.name=atif (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,432] INFO Client environment:user.home=/home/atif (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,432] INFO Client environment:user.dir=/run/media/atif/data/kafka_python/day_1/kafka_2.13-3.4.0 (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,432] INFO Client environment:os.memory.free=987MB (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,432] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,432] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,434] INFO Initiating client connection, connectString=192.168.0.106:2181 sessionTimeout=18000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@16c069df (org.apache.zookeeper.ZooKeeper)
+[2023-03-25 23:48:13,440] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+[2023-03-25 23:48:13,447] INFO zookeeper.request.timeout value is 0. feature enabled=false (org.apache.zookeeper.ClientCnxn)
+[2023-03-25 23:48:13,449] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2023-03-25 23:48:13,450] INFO Opening socket connection to server /192.168.0.106:2181. (org.apache.zookeeper.ClientCnxn)
+[2023-03-25 23:48:13,454] INFO Socket connection established, initiating session, client: /192.168.0.106:54174, server: /192.168.0.106:2181 (org.apache.zookeeper.ClientCnxn)
+[2023-03-25 23:48:13,467] INFO Creating new log file: log.1 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2023-03-25 23:48:13,477] INFO Session establishment complete on server /192.168.0.106:2181, session id = 0x100002f207b0000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2023-03-25 23:48:13,481] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2023-03-25 23:48:13,710] INFO Cluster ID = yoMkM9UVQhyqwHt3RbR2dw (kafka.server.KafkaServer)
+[2023-03-25 23:48:13,714] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2023-03-25 23:48:13,765] INFO KafkaConfig values: 
+	advertised.listeners = PLAINTEXT://192.168.0.106:9092
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.include.jmx.reporter = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.heartbeat.interval.ms = 2000
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	broker.session.timeout.ms = 9000
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.listener.names = null
+	controller.quorum.append.linger.ms = 25
+	controller.quorum.election.backoff.max.ms = 1000
+	controller.quorum.election.timeout.ms = 1000
+	controller.quorum.fetch.timeout.ms = 2000
+	controller.quorum.request.timeout.ms = 2000
+	controller.quorum.retry.backoff.ms = 20
+	controller.quorum.voters = []
+	controller.quota.window.num = 11
+	controller.quota.window.size.seconds = 1
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delegation.token.secret.key = null
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	early.start.listeners = null
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	initial.broker.registration.timeout.ms = 60000
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 3.4-IV0
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = PLAINTEXT://:9092
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 3.0-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connection.creation.rate = 2147483647
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metadata.log.dir = null
+	metadata.log.max.record.bytes.between.snapshots = 20971520
+	metadata.log.max.snapshot.interval.ms = 3600000
+	metadata.log.segment.bytes = 1073741824
+	metadata.log.segment.min.bytes = 8388608
+	metadata.log.segment.ms = 604800000
+	metadata.max.idle.interval.ms = 500
+	metadata.max.retention.bytes = 104857600
+	metadata.max.retention.ms = 604800000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	node.id = 0
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	principal.builder.class = class org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder
+	process.roles = []
+	producer.id.expiration.check.interval.ms = 600000
+	producer.id.expiration.ms = 86400000
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	remote.log.index.file.cache.total.size.bytes = 1073741824
+	remote.log.manager.task.interval.ms = 30000
+	remote.log.manager.task.retry.backoff.max.ms = 30000
+	remote.log.manager.task.retry.backoff.ms = 500
+	remote.log.manager.task.retry.jitter = 0.2
+	remote.log.manager.thread.pool.size = 10
+	remote.log.metadata.manager.class.name = null
+	remote.log.metadata.manager.class.path = null
+	remote.log.metadata.manager.impl.prefix = null
+	remote.log.metadata.manager.listener.name = null
+	remote.log.reader.max.pending.tasks = 100
+	remote.log.reader.threads = 10
+	remote.log.storage.manager.class.name = null
+	remote.log.storage.manager.class.path = null
+	remote.log.storage.manager.impl.prefix = null
+	remote.log.storage.system.enable = false
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism.controller.protocol = GSSAPI
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	sasl.server.callback.handler.class = null
+	sasl.server.max.receive.size = 524288
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	socket.listen.backlog.size = 50
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = 192.168.0.106:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.metadata.migration.enable = false
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+ (kafka.server.KafkaConfig)
+[2023-03-25 23:48:13,800] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2023-03-25 23:48:13,800] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2023-03-25 23:48:13,802] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2023-03-25 23:48:13,804] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2023-03-25 23:48:13,823] INFO Log directory /tmp/kafka-logs not found, creating it. (kafka.log.LogManager)
+[2023-03-25 23:48:13,841] INFO Loading logs from log dirs ArraySeq(/tmp/kafka-logs) (kafka.log.LogManager)
+[2023-03-25 23:48:13,845] INFO Attempting recovery for all logs in /tmp/kafka-logs since no clean shutdown file was found (kafka.log.LogManager)
+[2023-03-25 23:48:13,856] INFO Loaded 0 logs in 14ms. (kafka.log.LogManager)
+[2023-03-25 23:48:13,856] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2023-03-25 23:48:13,859] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2023-03-25 23:48:13,935] INFO [feature-zk-node-event-process-thread]: Starting (kafka.server.FinalizedFeatureChangeListener$ChangeNotificationProcessorThread)
+[2023-03-25 23:48:13,946] INFO Feature ZK node at path: /feature does not exist (kafka.server.FinalizedFeatureChangeListener)
+[2023-03-25 23:48:13,986] INFO [BrokerToControllerChannelManager broker=0 name=forwarding]: Starting (kafka.server.BrokerToControllerRequestThread)
+[2023-03-25 23:48:14,257] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+[2023-03-25 23:48:14,260] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.DataPlaneAcceptor)
+[2023-03-25 23:48:14,279] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2023-03-25 23:48:14,284] INFO [BrokerToControllerChannelManager broker=0 name=alterPartition]: Starting (kafka.server.BrokerToControllerRequestThread)
+[2023-03-25 23:48:14,301] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-25 23:48:14,303] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-25 23:48:14,304] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-25 23:48:14,305] INFO [ExpirationReaper-0-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-25 23:48:14,318] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2023-03-25 23:48:14,342] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2023-03-25 23:48:14,362] INFO Stat of the created znode at /brokers/ids/0 is: 25,25,1679768294354,1679768294354,1,0,0,72057796446322688,212,0,25
+ (kafka.zk.KafkaZkClient)
+[2023-03-25 23:48:14,363] INFO Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT://192.168.0.106:9092, czxid (broker epoch): 25 (kafka.zk.KafkaZkClient)
+[2023-03-25 23:48:14,414] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-25 23:48:14,420] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-25 23:48:14,421] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-25 23:48:14,424] INFO Successfully created /controller_epoch with initial epoch 0 (kafka.zk.KafkaZkClient)
+[2023-03-25 23:48:14,435] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2023-03-25 23:48:14,438] INFO Feature ZK node created at path: /feature (kafka.server.FinalizedFeatureChangeListener)
+[2023-03-25 23:48:14,441] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2023-03-25 23:48:14,455] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2023-03-25 23:48:14,458] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2023-03-25 23:48:14,458] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2023-03-25 23:48:14,461] INFO [MetadataCache brokerId=0] Updated cache from existing <empty> to latest FinalizedFeaturesAndEpoch(features=Map(), epoch=0). (kafka.server.metadata.ZkMetadataCache)
+[2023-03-25 23:48:14,488] INFO [ExpirationReaper-0-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-25 23:48:14,512] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2023-03-25 23:48:14,524] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Enabling request processing. (kafka.network.SocketServer)
+[2023-03-25 23:48:14,530] INFO Kafka version: 3.4.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2023-03-25 23:48:14,530] INFO Kafka commitId: 2e1947d240607d53 (org.apache.kafka.common.utils.AppInfoParser)
+[2023-03-25 23:48:14,530] INFO Kafka startTimeMs: 1679768294527 (org.apache.kafka.common.utils.AppInfoParser)
+[2023-03-25 23:48:14,531] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2023-03-25 23:48:14,587] INFO [BrokerToControllerChannelManager broker=0 name=alterPartition]: Recorded new controller, from now on will use node 192.168.0.106:9092 (id: 0 rack: null) (kafka.server.BrokerToControllerRequestThread)
+[2023-03-25 23:48:14,598] INFO [BrokerToControllerChannelManager broker=0 name=forwarding]: Recorded new controller, from now on will use node 192.168.0.106:9092 (id: 0 rack: null) (kafka.server.BrokerToControllerRequestThread)
