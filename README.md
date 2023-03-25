@@ -1,1 +1,1 @@
-# This repository contains the my learning notes for Kafka.
+# This repository contains  my learning notes for Kafka.
