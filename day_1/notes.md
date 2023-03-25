@@ -20,3 +20,12 @@ we need to specify to which 'topic' such data should be stored.
 A 'topic' is basically the destination that will hold all the data.
 If you are familiar with a message queue, think of the topic like the queue name.
 If you are new to all of this, just think of the topic as a box where the messages are stored.
+
+# starting the zookeeper and kafka server
+```shell
+ sh  bin/zookeeper-server-start.sh  config/zookeeper.properties 
+ JMX_PORT=8004 sh bin/kafka-server-start.sh config/server.properties 
+# zookeeper port: 2181
+# kafka port: 9092
+
+```
