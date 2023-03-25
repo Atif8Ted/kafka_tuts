@@ -1,0 +1,1 @@
+# This repository contains the my learning notes for Kafka.
