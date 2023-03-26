@@ -3,17 +3,23 @@ from kafka.errors import TopicAlreadyExistsError
 
 
 admin_client = KafkaAdminClient(bootstrap_servers=["192.168.0.106:9092"])
-topic_name = "registered_users"
+topic_name = "registered_users_1_part"
 num_partitions = 1
 replication_factor = 1
 
-new_topic = NewTopic(
+new_topic_with_1_partition = NewTopic(
     name=topic_name,
     num_partitions=num_partitions,
     replication_factor=replication_factor,
 )
-try:
-    admin_client.create_topics([new_topic])
-    print(f"{topic_name} created")
-except TopicAlreadyExistsError:
-    print(f"{topic_name} already exists")
+new_topic_with_2_partition = NewTopic(
+    name="registered_user_2_partition", num_partitions=2, replication_factor=1
+)
+topics = [new_topic_with_1_partition, new_topic_with_2_partition]
+for topic in topics:
+    try:
+        admin_client.create_topics([topic])
+        # admin_client.delete_topics([topic])
+        print(f"{topic_name} created")
+    except TopicAlreadyExistsError as e:
+        print(e.message)
