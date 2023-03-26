@@ -30,4 +30,5 @@ If you are new to all of this, just think of the topic as a box where the messag
 
 ```
 # graphical user interface for kafka
- 
+ cd /home/atif/.sbt/1.0/staging/9fe122a9540185ff93da/cmak/target/universal/cmak-3.0.0.7
+ bin/cmak -Dconfig.file=conf/application.conf -Dhttp.port=8080
