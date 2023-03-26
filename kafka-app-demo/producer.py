@@ -4,7 +4,8 @@ from kafka import KafkaProducer
 import json
 from data import get_registered_user
 
-TOPIC_NAME = "registered_users"
+TOPIC_NAME_SINGLE_PARTITION = "registered_users"
+TOPIC_NAME_TWO_PARTITION = "registered_user_2_partition"
 
 
 def json_serializer(data):
@@ -16,13 +17,13 @@ producer = KafkaProducer(
 )
 
 
-def produce_messages():
+def produce_messages(topic):
     user = get_registered_user()
     print(user)
-    producer.send(topic=TOPIC_NAME, value=user)
+    producer.send(topic=topic, value=user)
 
 
 if __name__ == "__main__":
     while True:
-        produce_messages()
-        time.sleep(4)
+        produce_messages(topic=TOPIC_NAME_SINGLE_PARTITION)
+        produce_messages(topic=TOPIC_NAME_TWO_PARTITION)
