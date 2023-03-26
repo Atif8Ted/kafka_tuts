@@ -29,3 +29,12 @@ for user in users_not_following_me:
         f"https://api.github.com/user/following/{user}", headers=headers
     )
     print(response.text)
+
+# follow users that are following me
+users_following_me = [user for user in followers if user not in following]
+for user in users_following_me:
+    print(user)
+    response = requests.put(
+        f"https://api.github.com/user/following/{user}", headers=headers
+    )
+    print(response.text)
