@@ -10,7 +10,3 @@ def get_registered_user():
         "created_at": fake.year(),
     }
     return user_data
-
-
-if __name__ == "__main__":
-    print(get_registered_user())
