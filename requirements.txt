@@ -1,2 +1,5 @@
 kafka-python
 faker
+requests~=2.28.2
+python-dotenv~=1.0.0
+PyGithub~=1.58.1
