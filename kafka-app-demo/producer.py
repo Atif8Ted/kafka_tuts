@@ -29,7 +29,7 @@ producer_fix_partition = KafkaProducer(
 
 def produce_messages(topic, producer_name):
     user = get_registered_user()
-    print(user)
+    print(json.dumps(user))
     producer_name.send(topic=topic, value=user)
 
 
