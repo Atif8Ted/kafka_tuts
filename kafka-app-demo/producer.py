@@ -27,3 +27,8 @@ if __name__ == "__main__":
     while True:
         produce_messages(topic=TOPIC_NAME_SINGLE_PARTITION)
         produce_messages(topic=TOPIC_NAME_TWO_PARTITION)
+        time.sleep(4)
+        # Above the producer was sending to different partition of a topic randomly.
+        # Now we want to send message to fixed partition of a topic
+        # producer can select the partition of their choice in a topic where it wants to publish the message
+
