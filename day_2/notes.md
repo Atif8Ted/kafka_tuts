@@ -5,4 +5,4 @@
   - ![img_1.png](img_1.png)
 - if no group_id is provided then random group id is assigned
 - configuration needed by consumer
- - ![img_2.png](img_2.png)
+  - ![img_2.png](img_2.png)
