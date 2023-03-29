@@ -19,14 +19,14 @@ message_to_fix_partition = NewTopic(
     name="message_to_fix_partition", num_partitions=2, replication_factor=1
 )
 topics = [
-    new_topic_with_1_partition,
+    # new_topic_with_1_partition,
     new_topic_with_2_partition,
-    message_to_fix_partition,
+    # message_to_fix_partition,
 ]
 for topic in topics:
     try:
         admin_client.create_topics([topic])
         # admin_client.delete_topics([topic])
-        print(f"{topic_name} created")
+        print(f"{topic} created")
     except TopicAlreadyExistsError as e:
         print(e.message)

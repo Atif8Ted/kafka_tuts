@@ -1,7 +1,7 @@
 from kafka import KafkaConsumer
 import json
 
-TOPIC_NAME_SINGLE_PARTITION = "registered_users"
+TOPIC_NAME_SINGLE_PARTITION = "registered_user_2_partition"
 if __name__ == "__main__":
     consumer = KafkaConsumer(
         TOPIC_NAME_SINGLE_PARTITION,
