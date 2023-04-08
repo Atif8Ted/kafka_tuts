@@ -10,6 +10,8 @@ dotenv.load_dotenv()
 consumer_key = os.getenv("TWITTER_API_KEY")
 consumer_secret = os.getenv("TWITTER_SECRET")
 
+ids = {23424848}
+
 
 def get_twitter_data():
     key_secret = "{}:{}".format(consumer_key, consumer_secret).encode("ascii")
@@ -29,13 +31,10 @@ def get_twitter_data():
     access_token = auth_resp.json()["access_token"]
     trend_headers = {"Authorization": "Bearer {}".format(access_token)}
 
-    trend_params = {
-        "id": 1,
-    }
-
     trend_url = "https://api.twitter.com/1.1/trends/place.json"
-    trend_resp = requests.get(trend_url, headers=trend_headers, params=trend_params)
-    tweet_data = trend_resp.json()
-    for i in tweet_data:
-        for j in range(len(i["trends"])):
-            yield i["trends"][j]
+    for id in ids:
+        trend_resp = requests.get(trend_url, headers=trend_headers, params={"id": id})
+        tweet_data = trend_resp.json()
+        for i in tweet_data:
+            for j in range(len(i["trends"])):
+                yield i["trends"][j]
