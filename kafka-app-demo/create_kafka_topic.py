@@ -30,3 +30,9 @@ for topic in topics:
         print(f"{topic} created")
     except TopicAlreadyExistsError as e:
         print(e.message)
+
+
+
+
+
+
