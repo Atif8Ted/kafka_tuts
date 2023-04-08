@@ -11,6 +11,6 @@ if __name__ == "__main__":
     )
     print("starting the consumer")
     for message in consumer:
-        # since while sending we were serializing it ,
+        # since, while sending we were serializing it ,
         # so we need to deserialize it using json.loads and message.value
         print(json.loads(message.value))
